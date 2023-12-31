@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 
 
 app.use(cors({
-  origin: "https://saroha.netlify.app/",
+  origin: "https://saroha.netlify.app",
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   allowedHeaders: ["Content-Type", "Authorization"]
 }));
